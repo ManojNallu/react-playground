@@ -16,7 +16,10 @@ const MyHeader = () => {
                         <Nav.Link><Link to="/Count-incdec">Counter_INC_DEC</Link></Nav.Link>
                         <Nav.Link><Link to="/wordcounter">Word Counter</Link></Nav.Link>
                         <Nav.Link><Link to="/products">Products List</Link></Nav.Link>
-                      
+                        <Nav.Link><Link to="/search">Search Bar</Link></Nav.Link>
+                        <Nav.Link><Link to="/useproducts">ProductsList2</Link></Nav.Link>
+                        <Nav.Link><Link to="/post_form-data">PostFormData</Link></Nav.Link>
+                        <Nav.Link><Link to="/weatherapp">WeatherApp</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

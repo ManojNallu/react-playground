@@ -1,15 +1,15 @@
 
-const initialState: any = [];
+const initialState : any = [];
 
 const productReducer = (state = initialState, action: any) => {
+
+   
+   
     switch (action.type) {
-        case "GET_PRODUCTS":
-            state.push(action.payload);
-            return state;
-            break;
+        case 'GET_PRODUCTS' :
+           return {...state, ...[action.payload]};
         default:
             return state;
-            break;
     }
 }
 

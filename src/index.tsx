@@ -18,6 +18,10 @@ import AddDelCount from './Inc-Dec';
 import Wordcounter from './wordcounter';
 import Products from './reducers/products';
 import ProductsList from './reducers/products';
+import SearchFilter from './search-filter';
+import UseEffectProducts from './UseEffectProducts';
+import PostFormData from './PostFormData';
+import Weather_App from './weather_app';
 
 
 
@@ -26,25 +30,25 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 
-  <App />
-  // <Provider store={appStore}>
-  //   <BrowserRouter>
-  //     <MyHeader />
-  //     <Routes>
-  //       <Route key={1} path="/" element={<App />}></Route>
-  //       <Route key={2} path="/multiTable" element={<MultiTable multiNumber={10} />}></Route>
-  //       <Route key={3} path="/simple.form.components" element={<SimpleForm />}></Route>
-  //       <Route key={4} path="/react.hookform" element={<ReactHookForm />}></Route>
-  //       <Route key={5} path="/user-list" element={<UserList />}></Route>
-  //       <Route key={6} path="/Count-incdec" element={<AddDelCount />}></Route>
-  //       <Route key={7} path="/wordcounter" element={<Wordcounter />}></Route>
-  //       <Route key={8} path="/products" element={<ProductsList />}></Route>
-      
-
-        
-  //     </Routes>
-  //   </BrowserRouter>
-  // </Provider>
+  <Provider store={appStore}>
+    <BrowserRouter>
+      <MyHeader />
+      <Routes>
+        <Route key={1} path="/" element={<App />}></Route>
+        <Route key={2} path="/multiTable" element={<MultiTable multiNumber={10} />}></Route>
+        <Route key={3} path="/simple.form.components" element={<SimpleForm />}></Route>
+        <Route key={4} path="/react.hookform" element={<ReactHookForm />}></Route>
+        <Route key={5} path="/user-list" element={<UserList />}></Route>
+        <Route key={6} path="/Count-incdec" element={<AddDelCount />}></Route>
+        <Route key={7} path="/wordcounter" element={<Wordcounter />}></Route>
+        <Route key={8} path="/products" element={<Products />}></Route>
+        <Route key={9} path="/search" element={<SearchFilter />}></Route>
+        <Route key={10} path="/useproducts" element={<UseEffectProducts  />}></Route>
+        <Route key={11} path='/post_form-data' element={<PostFormData />}></Route>
+        <Route key={11} path='/weatherapp' element={<Weather_App />}></Route>
+      </Routes>
+    </BrowserRouter>
+  </Provider>
 
 );
 

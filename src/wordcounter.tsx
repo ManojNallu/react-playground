@@ -28,9 +28,11 @@ const Wordcounter = (props: any) => {
     const textToUppercase = () => {
         setDisplayText(displayText.toUpperCase());
     }
+
     const textToLowercase = () => {
         setDisplayText(displayText.toLowerCase());
     }
+    
     const textClear = () => {
         setDisplayText("");
     }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 const SearchFilter = (props: any) => {
 
-    const list: string[] = ["Manoj", "Monty", "Siri", "Manu", "Banana", "Apple", "Grapes"]
+    const list: string[] = ["Manoj", "Monty", "Siri", "Manu", "Banana", "Apple", "Grapes","Rajeev"]
 
     const [searchTerm, setSearchTerm] = useState("");
 

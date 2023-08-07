@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
+import CounterCode from "./CounterCode";
 
 export interface MultiNumber {
     multiNumber: number;
@@ -41,6 +42,8 @@ function MultiTable(props: MultiNumber) {
              
             {/* <button onClick={() =>props.callMe(dataforParenrt)}>Click me</button>*/}
             {/* <Button onClick={() =>props.callMe(dataforParenrt)} variant="primary">Click me</Button> */}
+
+            <CounterCode />
         </>
         )
 
