@@ -22,6 +22,9 @@ import SearchFilter from './search-filter';
 import UseEffectProducts from './UseEffectProducts';
 import PostFormData from './PostFormData';
 import Weather_App from './weather_app';
+import Count_Reducer from './assignment.ts/count_reducer';
+import MoviesApp from './MoviesApp/MoviesApp';
+import MovieDetails from './MoviesApp/MovieDetails';
 
 
 
@@ -46,6 +49,9 @@ root.render(
         <Route key={10} path="/useproducts" element={<UseEffectProducts  />}></Route>
         <Route key={11} path='/post_form-data' element={<PostFormData />}></Route>
         <Route key={11} path='/weatherapp' element={<Weather_App />}></Route>
+        <Route key={11} path='/count_reducer' element={<Count_Reducer/>}></Route>
+        <Route key={12} path='/movies_app' element={<MoviesApp/>}></Route>
+        <Route key={13} path='/movie/:id' element={<MovieDetails />}></Route>
       </Routes>
     </BrowserRouter>
   </Provider>
