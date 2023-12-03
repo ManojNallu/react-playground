@@ -25,6 +25,8 @@ import Weather_App from './weather_app';
 import Count_Reducer from './assignment.ts/count_reducer';
 import MoviesApp from './MoviesApp/MoviesApp';
 import MovieDetails from './MoviesApp/MovieDetails';
+import MyFunction from './jsPrac';
+import CheckContextFunction from './manu';
 
 
 
@@ -52,6 +54,7 @@ root.render(
         <Route key={11} path='/count_reducer' element={<Count_Reducer/>}></Route>
         <Route key={12} path='/movies_app' element={<MoviesApp/>}></Route>
         <Route key={13} path='/movie/:id' element={<MovieDetails />}></Route>
+        <Route key={14} path='/manu' element={<CheckContextFunction />}></Route>
       </Routes>
     </BrowserRouter>
   </Provider>
