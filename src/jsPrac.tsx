@@ -7,6 +7,7 @@ const MyFunction: React.FC = () => {
         <>
             <p>hello</p>
             {console.log("manoj")}
+
         </>
 
     );

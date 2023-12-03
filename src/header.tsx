@@ -24,6 +24,7 @@ const MyHeader = () => {
                         <Nav.Link><Link to="/count_reducer">Count Reducer</Link></Nav.Link> */}
                         <Nav.Link><Link to="/movies_app">Movies App</Link></Nav.Link>
                         <Nav.Link><Link to="/movie/id"></Link></Nav.Link>
+                        <Nav.Link><Link to="/manu">check</Link></Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
